@@ -1,0 +1,30 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+#indexBox {
+    grid-column: 2/6;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 44px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    background: grey;
+}
+
+input {
+    font-size: 25px;
+    padding: 5px;
+    margin-bottom: 15px;
+    border:2px solid blue;
+}
+
+#click {
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+
+}
